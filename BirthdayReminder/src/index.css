@@ -1,0 +1,61 @@
+body{
+  background-color: teal;
+}
+
+.birthdayreminder{
+  width: auto;
+  height: auto;
+  background-color: rgb(129, 120, 120);
+ background-color: gray;
+ text-align: center;
+ margin: 10%;
+ border-radius: 10%;
+ /* display: flex; */
+} 
+
+.birthdays{
+display: flex;
+flex-direction: column;
+
+}
+.bdayperson{
+  margin-top: 4%;
+  /* display: grid;
+   */
+  
+ display: grid;
+ grid-template-columns: 400px ;
+ 
+  
+ align-items: center;
+ justify-content: center;
+
+}
+.bdayperson h3{
+  align-items:center ;
+  margin-top: -30%;
+}
+.bdayperson p{
+  align-items:center ;
+  margin-top: -20%;
+}
+.bdayperson img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-items: center;
+  
+}
+
+.btn{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  
+}
+.loadBtn{
+  text-align: center;
+  width: auto;
+  height: auto;
+  font-size: large;
+}
