@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(146, 119, 119);
+margin: 3%;
+}
+.loading{
+  text-align: center;
+  color: whitesmoke;
+}
+.tour-container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+ width: 90vw;
+}
+
+.alltours{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.touritem{
+  /* line-height: 0; */
+  display: flex;
+  flex-direction: column;
+   margin-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px rgb(96, 204, 45) solid;
+  background-color: rgb(166, 173, 180);
+padding: 3%;
+width: 50vw;
+box-shadow: 0 0 9px 10px rgb(31, 28, 28);
+
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+}
+.info h2{
+  margin-left: 2%;
+  color: brown;
+}
+.touritem img{
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+}
+.touritem button:hover{
+  display: block;
+  cursor: pointer;
+
+}
+
+.refresh{
+  text-transform: capitalize;
+text-align: center;
+display: flex;
+align-items: center;
+margin-left: 50%;
+}
