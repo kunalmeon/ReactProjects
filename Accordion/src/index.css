@@ -1,0 +1,27 @@
+body{
+  background-color: teal;
+  padding: 2%;
+}
+.question-container{
+  display: flex;
+}
+.all-question{
+  display: flex;
+  flex-direction:column;
+  color: rgb(252, 251, 244);
+}
+.question{
+  display: grid;
+  grid-template-columns: 350px 30px;
+  align-items: center;
+  margin-left: 4%;
+  margin-top: 6%;
+  box-shadow: 0 0 5px 5px rgb(190, 190, 96);
+  padding: 5%;
+}
+.question button:hover{
+  cursor: pointer;
+}
+.question p{
+  color: rgb(49, 35, 25);
+}
